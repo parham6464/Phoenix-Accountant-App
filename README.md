@@ -59,8 +59,9 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-![Product Name Screen Shot][product-screenshot]
+<div align="center">
+  ![Product Name Screen Shot][product-screenshot]
+</div>
 
 This is a very Complex Accountant App With Flet and Django
 I coded the API part only with Django cause i decided to make my app online
