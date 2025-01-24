@@ -1,0 +1,7 @@
+flet==0.21.2
+flet-core==0.21.2
+flet-runtime==0.21.2
+dnspython
+dnspython[doh]
+requests
+mysql-connector-python
