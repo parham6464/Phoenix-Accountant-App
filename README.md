@@ -27,8 +27,6 @@
     <a href="https://github.com/parham6464/Simple-Blog-Django"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
-    &middot;
     <a href="https://github.com/github_username/repo_name/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     &middot;
     <a href="https://github.com/github_username/repo_name/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
@@ -89,6 +87,21 @@ make sure to follow the steps for run and compile the app properly
    ```py
    python main.py
    ```
+for API part to makes app work pls do the same things:
+
+1.first we need to add our models
+```py
+python manage.py makemigrations
+python manage.py migrate
+```
+2.create a super user for admin
+```py
+python manage.py createsuperuser
+```
+3.run the server
+```py
+python manage.py runserver
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
