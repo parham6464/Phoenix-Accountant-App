@@ -87,6 +87,8 @@ make sure to follow the steps for run and compile the app properly
    ```py
    python main.py
    ```
+#### API
+
 for API part to makes app work pls do the same things:
 
 1.first we need to add our models
